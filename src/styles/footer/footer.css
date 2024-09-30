@@ -1,0 +1,24 @@
+.footer_main_div{
+    background: var(--black-color);
+    font-family: var(--Tommay-font-1);
+    color: var(--white-color);
+}
+
+.footer_bottom_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 50px 30px;
+    font-family: var(--Tommay-font-1) ;
+    border-top: 4px solid rgba(255, 255, 255, 0.523);
+}
+.footer_bottom_div_pages{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+}
+.footer_bottom_div_pages div{
+    cursor: pointer;
+}

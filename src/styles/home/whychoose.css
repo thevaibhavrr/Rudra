@@ -1,0 +1,68 @@
+.main_div_whychoose {
+    height: 100vh ;
+    background: var(--black-color);
+}
+.div_whychoose_for_gif {
+    background-image: url("../../assets/utils/lava ring.gif");
+    background-size: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: 1;
+}
+.div_whychoose_for_text {
+    color: var(--white-color);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* cars */
+
+.whychoose_cards_div_parent{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    font-family: var(--Tommay-font-1);
+}
+.whychoose_text{
+    font-family: var(--Tommay-font-1); 
+    margin-bottom: 30px;
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+.card_whychoose_div {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.648);
+}
+.card_whychoose_image{
+    width: 70%;
+}
+.card_whychoose_paregraph{
+    width: 80%;
+    font-size: 15px ;
+}
+.card_whychoose_div:hover{
+    opacity: 1;
+    /* scale: 1.1; */
+    transform:  translateY(-50px);
+    background: var(--black-color);
+}

@@ -1,0 +1,76 @@
+.precesion_main_div {
+  display: flex;
+  gap: 20px;
+  height: 100vh;
+  width: 100%;
+  padding: 20px 100px;
+  background: var(--black-color);
+}
+
+
+/* left */
+.precesion_left_div {
+  width: 50%;
+  height: 80vh;
+  max-width: 50%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.pana_image {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+
+}
+.pana_image:hover {
+  transform: scale(1.1);
+  border-radius: 30px;
+}
+
+/* right  */
+.precesion_right_div {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 20px;
+}
+.precesion_top_div_image{
+  /* background: red; */
+  height: 63vh;
+  overflow: hidden;
+
+}
+.bold_image {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.bold_image:hover {
+  transform: scale(1.1);
+  border-radius: 30px;
+}
+.precesion_bottom_botton {
+  display: flex;
+  justify-content: space-evenly;
+}
+.precesion_bottom_botton div {
+  text-align: center;
+  background: linear-gradient(90deg, #cccccc, #888888);
+  border: none;
+  border-radius: 10px;
+  padding: 30px 50px;
+  color: black;
+  width: 40%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.precesion_bottom_botton div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(90deg, #888888, #cccccc);
+}

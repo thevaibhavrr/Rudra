@@ -1,0 +1,55 @@
+.navbar_main_div{
+    background: var(--black-color);
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_side_div_nav img , .right_side_div_nav img{
+    width: 80%;
+    
+}
+/*  
+.App {
+    font-family: sans-serif;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background-color: #752596;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 160px;
+  }
+  
+  ul {
+    padding: 10px 10px 10px 0px;
+    background-color: #752596;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 0px;
+    height: 0px;
+    border-radius: 8px;
+    align-items: center;
+    opacity: 0;
+  }
+  
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    color: #fff;
+  }
+   */

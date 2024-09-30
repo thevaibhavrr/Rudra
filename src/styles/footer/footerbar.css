@@ -1,0 +1,26 @@
+/* styles.css */
+.marquee {
+    width: 100%;
+    background: transparent;
+  }
+  
+  .footerbar_marquee_indiv {
+    padding: 10px;       
+    font-size: 28px;     
+    width: 100%;
+    gap: 40px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    text-align: center;  
+  }
+ 
+  .footerbar_marquee_span_div{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+.footerbar_marquee_span{
+    font-size: 10px;
+}
