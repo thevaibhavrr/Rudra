@@ -7,40 +7,34 @@
   background: var(--black-color);
 }
 
-
 /* left */
 .precesion_left_div {
   width: 50%;
   height: 80vh;
-  max-width: 50%;
   border-radius: 20px;
   overflow: hidden;
 }
 .pana_image {
   width: 100%;
   transition: all 0.5s ease-in-out;
-
 }
 .pana_image:hover {
   transform: scale(1.1);
   border-radius: 30px;
 }
 
-/* right  */
+/* right */
 .precesion_right_div {
   width: 100%;
-  max-width: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 40px;
   border-radius: 20px;
 }
-.precesion_top_div_image{
-  /* background: red; */
+.precesion_top_div_image {
   height: 63vh;
   overflow: hidden;
-
 }
 .bold_image {
   width: 100%;
@@ -68,9 +62,46 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease-in-out;
 }
-
 .precesion_bottom_botton div:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   background: linear-gradient(90deg, #888888, #cccccc);
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .precesion_main_div {
+    padding: 20px 50px;
+  }
+  .precesion_left_div, .precesion_right_div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .precesion_main_div {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .precesion_left_div {
+    height: 50vh;
+  }
+  .precesion_top_div_image {
+    height: 50vh;
+  }
+  .precesion_bottom_botton {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .precesion_bottom_botton div {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .precesion_bottom_botton div {
+    font-size: 16px;
+    padding: 15px;
+  }
 }

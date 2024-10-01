@@ -86,3 +86,59 @@
     z-index: 2; 
   }
   
+
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .welcome_text {
+    font-size: 24px;
+  }
+
+  .rudra_text {
+    font-size: 36px;
+  }
+
+  .welcome_center_div img {
+    width: 25%;
+  }
+
+  .discover_button {
+    width: 15%;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome_text {
+    font-size: 20px;
+  }
+
+  .rudra_text {
+    font-size: 30px;
+  }
+
+  .welcome_center_div img {
+    width: 40%;
+  }
+
+  .discover_button {
+    width: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  .welcome_text {
+    font-size: 18px;
+  }
+
+  .rudra_text {
+    font-size: 26px;
+  }
+
+  .welcome_center_div img {
+    width: 60%;
+  }
+
+  .discover_button {
+    width: 50%;
+  }
+}
