@@ -11,7 +11,7 @@
 
 .hoverable {
     display: inline-block;
-    transition: color 0.5s ease;
+    transition: color 1s ease;
     cursor:grab;
 }
 
