@@ -22,3 +22,37 @@
 .footer_bottom_div_pages div{
     cursor: pointer;
 }
+
+@media (max-width: 800px) {
+    .footer_bottom_div{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 0px;
+        padding: 40px 20px;
+    }
+    .footer_bottom_div_pages{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 14px;
+    }
+  
+}
+
+@media (max-width: 500px) {
+    .footer_bottom_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 50px;
+        padding: 40px 60px;
+    }
+    .footer_bottom_div_pages{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 18px;
+    }
+}

@@ -166,7 +166,7 @@
 }
 @media (max-width: 500px) {
     .main_div_whychoose {
-        height: 100% ;
+        height: 350vh;
     }
     .div_whychoose_for_gif {
         background-size: 80%;

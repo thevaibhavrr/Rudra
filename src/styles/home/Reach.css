@@ -89,3 +89,56 @@
 .reach_right_gif {
   width: 40%;
 }
+
+@media (max-width: 1030px) {
+  .reach_main_div {
+    gap: 100px;
+  }
+  /* bottom */
+  .reach_bottom_section {
+    padding: 0px 50px;
+  }
+  .reach_right_gif {
+    width: 70%;
+  }
+}
+@media (max-width: 800px) {
+  .reach_main_div {
+    width: 100%;
+    height: 90vh;
+    gap: 50px;
+    padding: 30px;
+  }
+  .reach_heading {
+    font-size: 22px;
+  }
+  
+  /* bottom */
+  .reach_bottom_section {
+    padding: 0px 10px;
+  }
+  /* left */
+  .reach_form_main_div {
+    width: 100%;
+    gap: 20px;
+    padding: 0px 20px;
+  }
+ 
+  .reach_right_gif {
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .reach_main_div {
+    width: 100%;
+    height: 90%;
+    gap: 50px;
+    padding: 30px;
+  }
+ 
+  .reach_right_gif_div{
+    display: none;
+  }
+ 
+  
+}

@@ -44,7 +44,7 @@ function Reach() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
         </>
     )
 }

@@ -78,3 +78,94 @@
     height: 100%;
   }
   
+  @media (max-width: 1030px) {
+    .innovation_div {
+      width: 80%;
+      gap: 30px;
+    }
+    
+    .innovation_text_section {
+      gap: 30px;
+      padding: 0px 30px;
+    }
+    
+    /* Background image with lower opacity */
+    .innovation_text_section::before {
+      background-size: 30%;
+    }
+    
+    .innovation_heading {
+      font-size: 26px;
+    }
+    
+    .innovation_paragraph {
+      font-size: 19px;
+      padding: 0px 90px;
+    }
+    
+    .innovation_image_div {
+      width: 28%;
+    }
+  }
+  @media (max-width: 800px) {
+    .innovation_div {
+      width: 90%;
+      gap: 40px;
+    }
+    
+    .innovation_text_section {
+      gap: 20px;
+      padding: 0px 20px;
+    }
+    
+    /* Background image with lower opacity */
+    .innovation_text_section::before {
+      background-size: 35%;
+    }
+    
+    .innovation_heading {
+      font-size: 24px;
+    }
+    
+    .innovation_paragraph {
+      font-size: 17px;
+      padding: 0px 70px;
+    }
+    
+    .innovation_image_div {
+      width: 28%;
+    }
+  }
+  @media (max-width: 500px) {
+    .innovation_div {
+      width: 95%;
+      gap: 40px;
+    }
+    
+    .innovation_text_section {
+      gap: 20px;
+      padding: 0px 20px;
+    }
+    
+    /* Background image with lower opacity */
+    .innovation_text_section::before {
+      background-size: 55%;
+    }
+    
+    .innovation_heading {
+      font-size: 24px;
+    }
+    
+    .innovation_paragraph {
+      font-size: 17px;
+      padding: 0px 20px;
+    }
+    .innovation_images_parent_div{
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 300px;
+    }
+    .innovation_image_div {
+      width: 50%;
+    }
+  }

@@ -24,3 +24,23 @@
 .footerbar_marquee_span{
     font-size: 10px;
 }
+@media (max-width: 1030px) {
+.footerbar_marquee_indiv {
+  font-size: 24px;     
+}
+}
+@media (max-width: 500px) {
+  .footerbar_marquee_indiv {
+    padding: 8px;       
+    font-size: 18px;     
+    gap: 20px;
+  }
+ 
+  .footerbar_marquee_span_div{
+    gap: 5px;
+  }
+
+.footerbar_marquee_span{
+    font-size: 8px;
+}
+}

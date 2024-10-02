@@ -2,7 +2,7 @@ import React from 'react';
 import "../../styles/home/innovation.css";
 
 function Innovation() {
-    return (
+    return ( 
         <>
             <div className='innovation_main_div'>
                 <div className='innovation_div'>

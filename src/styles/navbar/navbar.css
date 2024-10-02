@@ -38,6 +38,33 @@
 }
 
 .sidebar ul li:hover {
-  /* scale: 1.1; */
   border: none;
+}
+
+@media (max-width: 500px) {
+  .navbar_main_div{
+    background: var(--black-color);
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right_side_div_nav{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.left_side_div_nav{
+  width: 100%;
+}
+.right_side_div_nav img{
+    width: 70%;
+}
+.left_side_div_nav img {
+    width: 60%;
+}
+
+
+
 }
