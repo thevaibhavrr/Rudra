@@ -1,23 +1,45 @@
-.navbar_main_div{
-    background: var(--black-color);
-    width: 100%;
-    padding: 10px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+/* navbar.css */
+
+.navbar_main_div {
+  background: var(--black-color);
+  width: 100%;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100; /* Ensure it's on top */
 }
-.right_side_div_nav img{
-    width: 80%;
+
+.right_side_div_nav img {
+  width: 80%;
 }
+
 .left_side_div_nav img {
-    width: 60%;
+  width: 60%;
 }
 
 .sidebar {
-  position: absolute; 
-  top: 12%;
-  left: 5%;
+  position: absolute; /* Changed to fixed for better control */
+  top: 10%; /* Ensure it starts from the top */
+  left: 5%; /* Adjust as necessary */
   overflow: hidden; 
+  z-index: 101; /* Higher z-index for backdrop */
+  height: 60vh; /* Make it cover the full height */
+  width: 20%; /* Adjust width */
+  padding: 20px;
+  transition: all 0.2s ease; 
+}
+
+.sidebar.open {
+  backdrop-filter: blur(5px); /* Increase blur effect */
+  border: 1px solid var(--border-gray-color);
+  opacity: 0.9; /* Adjust opacity for a clearer effect */
+  border-radius: 10px;
+}
+
+.sidebar.closed {
+  backdrop-filter: none; 
+  border: none;
 }
 
 .sidebar ul {
@@ -28,13 +50,16 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-family: var(--Tommay-font-1); 
+  font-size: 20px;
 }
+
 .sidebar ul li {
   text-align: center;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   border-bottom: 1px solid var(--white-color);
-  padding: 10px 0px;
+  padding: 10px 0;
 }
 
 .sidebar ul li:hover {
@@ -42,29 +67,21 @@
 }
 
 @media (max-width: 500px) {
-  .navbar_main_div{
-    background: var(--black-color);
-    width: 100%;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.right_side_div_nav{
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-.left_side_div_nav{
-  width: 100%;
-}
-.right_side_div_nav img{
-    width: 70%;
-}
-.left_side_div_nav img {
-    width: 60%;
-}
+  .navbar_main_div {
+      padding: 10px 20px;
+      justify-content: space-between;
+  }
 
+  .right_side_div_nav {
+      display: flex;
+      justify-content: flex-end;
+  }
 
+  .right_side_div_nav img {
+      width: 70%;
+  }
 
+  .left_side_div_nav img {
+      width: 60%;
+  }
 }

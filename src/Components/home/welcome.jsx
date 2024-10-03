@@ -69,13 +69,13 @@ function Welcome() {
         {/* center */}
         <motion.div 
           className='welcome_center_div'
-          initial={{ scale: 0.1 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 0.8 , stiffness: 100  }}
+          // initial={{ scale: 0.1 }}
+          // animate={{ scale: 1 }}
+          // transition={{ duration: 0.8 , stiffness: 100  }}
         >
           <motion.img src={CircelGif} alt="logo"
-            whileHover={{ scale: 1.2  }}
-            transition={{ duration: 1 , stiffness: 500  }}
+            // whileHover={{ scale: 1.2  }}
+            // transition={{ duration: 1 , stiffness: 500  }}
           />
         </motion.div>
         {/* bottom */}

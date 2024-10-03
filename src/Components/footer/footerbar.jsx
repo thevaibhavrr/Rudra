@@ -16,4 +16,4 @@ function Footerbar() {
     );
 }
 
-export default Footerbar
+export default Footerbar 

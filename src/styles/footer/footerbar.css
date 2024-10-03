@@ -23,6 +23,17 @@
 
 .footerbar_marquee_span{
     font-size: 10px;
+    position: relative;
+}
+.footerbar_marquee_span:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background: var(--orange-color);
 }
 @media (max-width: 1030px) {
 .footerbar_marquee_indiv {

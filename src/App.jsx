@@ -1,25 +1,26 @@
-import React from 'react'
-import Navbar from './Utils/Navbar'
-import Home from './Pages/Home'
-import Footer from './Components/footer/footer'
-import FactsAboutMe from './Pages/test'
-import { Route, Routes } from "react-router-dom";
-import Contect from './Pages/Contect'
-
+import React from 'react';
+import Navbar from './Utils/Navbar';
+import Home from './Pages/Home';
+import Footer from './Components/footer/footer';
+import { Route, Routes, useLocation } from "react-router-dom";
+import Contect from './Pages/Contect';
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
+  const location = useLocation();
+
   return (
     <div>
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contect />} />
-        <Route path="/test" element={<FactsAboutMe />} />
-
-      </Routes>
-      <Footer/>
+      <Navbar />
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contect />} />
+        </Routes>
+      </AnimatePresence>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

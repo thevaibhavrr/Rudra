@@ -46,7 +46,7 @@
   border: none;
   font-size: 20px;
   font-family: var(--Tommay-font-1);
-  border: 1px solid var(--white-color);
+  border: 1px solid var(--border-gray-color);
   background-color: var(--black-color);
   color: var(--orange-color);
   font-weight: bolder;

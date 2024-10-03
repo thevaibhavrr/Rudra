@@ -47,12 +47,12 @@
   }
   
   .detailsslider_top_div_right {
-    width: 35%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 130px;
-    font-weight: 900;
+    font-size: 220px;
+    font-weight: 1000;
     color: var(--black-color);
     background: var(--orange-color);
     border-radius: 2%;

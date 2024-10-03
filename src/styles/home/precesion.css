@@ -47,6 +47,7 @@
 .precesion_bottom_botton {
   display: flex;
   justify-content: space-evenly;
+  
 }
 .precesion_bottom_botton div {
   text-align: center;

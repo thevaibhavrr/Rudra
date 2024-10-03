@@ -31,7 +31,10 @@
     bottom: 0;
     background-image: url("../../assets/utils/lava ring.gif");
     background-repeat: no-repeat;
-    background-size: var(--background-size);
+    /* for animation */
+    /* background-size: var(--background-size); */
+    /* for normal */
+    background-size: 24%;
     background-position: center;
     opacity: 0.3;
     z-index: 1;

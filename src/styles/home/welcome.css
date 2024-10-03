@@ -60,7 +60,7 @@
   .discover_button::before {
     content: '';
     position: absolute;
-    top: 90%;
+    top: 95%;
     left: 50%;
     width: 0;
     height: 0;
@@ -73,7 +73,7 @@
   .discover_button:hover::before {
     width: 200%; 
     height: 200%; 
-    top: -45%; 
+    top: -50%; 
     left: -10%; 
   }
   
