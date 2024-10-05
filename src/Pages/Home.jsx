@@ -41,10 +41,10 @@ function Home() {
     <div>
 
     <motion.div
-      initial={{ opacity: 0, y: 500 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -500 }}
-      transition={{ duration: 0.2 , type: 'tween' }}
+      // initial={{ opacity: 0, y: 500 }}
+      // animate={{ opacity: 1, y: 0 }}
+      // exit={{ opacity: 0, y: -500 }}
+      // transition={{ duration: 0.2 , type: 'tween' }}
     >
       <Welcome />
     </motion.div>

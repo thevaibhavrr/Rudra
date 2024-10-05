@@ -1,5 +1,5 @@
 
-import React, { useLayoutEffect } from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
 import {motion} from 'framer-motion';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -9,10 +9,25 @@ import Second from "../../assets/home/detailsslider/seconddetails.png";
 import Third from "../../assets/home/detailsslider/gun.png"
 import Forth from "../../assets/home/detailsslider/farm.png"
 import fift from "../../assets/home/detailsslider/medicin.png"
+import Lenis from "@studio-freight/lenis/types"
+
 
 gsap.registerPlugin(ScrollTrigger);
 
 function Detailsslider() {
+
+
+  useEffect(() => {
+		const lenis = new Lenis()
+
+		function raf(time) {
+			lenis.raf(time)
+			requestAnimationFrame(raf)
+		}
+
+		requestAnimationFrame(raf)
+	}, [])
+  
   useLayoutEffect(() => {
     const container = document.querySelector('.detailsslider_main_div');
     const updateScrollAnimation = () => {

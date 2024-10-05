@@ -1,8 +1,15 @@
-import React from 'react';
+
+
+import React, { forwardRef } from 'react';
 import "../../styles/contact/sendmsg.css";
 import Arrow from "../../assets/contact/arrow.png";
 
-function Sendmsg() {
+
+const Sendmsg = React.forwardRef((props, ref) => {
+    const handleButtonClick = () => {
+        ref.current.scrollIntoView({ behavior: 'smooth' }); 
+    };
+
     return (
         <div className='sendmsg_main_div'>
             <div className='sendmsg_div'>
@@ -11,7 +18,7 @@ function Sendmsg() {
                     <div className='send_info_data'>
                         <div>PHONE NUMBER</div>
                         <div className='send_info_data_value'>+91 9876512345</div>
-                    </div>
+                    </div> 
                     <div className='send_info_data'>
                         <div>ADDRESS</div>
                         <div className='send_info_data_value'>91, STREET 2, INDIA</div>
@@ -23,7 +30,7 @@ function Sendmsg() {
                 </div>
                 {/* Button Section */}
                 <div className='sendmsg_div_button'>
-                    <button className='send_messsage_button'>
+                    <button className='send_messsage_button' onClick={handleButtonClick}>
                         <span>SEND MESSAGE?</span>
                     </button>
                 </div>
@@ -34,6 +41,6 @@ function Sendmsg() {
             </div>
         </div>
     );
-}
+});
 
 export default Sendmsg;
