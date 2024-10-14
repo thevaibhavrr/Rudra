@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import "../../styles/home/Brand.css";
@@ -10,7 +11,6 @@ function Brand() {
   const handleMouseEnter = (index) => {
     setHoveredIndex(index);
 
-    // Set the color to orange and reset it back to black after 5 seconds
     setColorChange((prev) => ({ ...prev, [index]: '#FF5700' }));
 
     setTimeout(() => {

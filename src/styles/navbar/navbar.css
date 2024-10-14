@@ -1,13 +1,16 @@
-/* navbar.css */
-
 .navbar_main_div {
-  background: var(--black-color);
   width: 100%;
   padding: 10px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 100; /* Ensure it's on top */
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: var(--Tommay-font-1);
+  color: var(--white-color);
 }
 
 .right_side_div_nav img {
@@ -19,21 +22,22 @@
 }
 
 .sidebar {
-  position: absolute; /* Changed to fixed for better control */
-  top: 10%; /* Ensure it starts from the top */
-  left: 5%; /* Adjust as necessary */
+  /* position: absolute; */
+  position: fixed;
+  top: 10%;
+  left: 5%;
   overflow: hidden; 
-  z-index: 101; /* Higher z-index for backdrop */
-  height: 60vh; /* Make it cover the full height */
-  width: 20%; /* Adjust width */
+  z-index: 101;
+  height: 60vh;
+  width: 20%;
   padding: 20px;
   transition: all 0.2s ease; 
 }
 
 .sidebar.open {
-  backdrop-filter: blur(5px); /* Increase blur effect */
+  backdrop-filter: blur(5px);
   border: 1px solid var(--border-gray-color);
-  opacity: 0.9; /* Adjust opacity for a clearer effect */
+  opacity: 0.9;
   border-radius: 10px;
 }
 

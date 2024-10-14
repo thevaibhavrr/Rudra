@@ -1,0 +1,39 @@
+.builifing_main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 30px;
+    font-family: var(--Tommay-font-1);
+    color: var(--white-color);
+    height: 100vh;
+  }
+  
+  .builifing_text {
+    font-size: 34px;
+    font-weight: bolder;
+  }
+  
+  .builifing_bottom_div {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .builifing_paragraph {
+    width: 90%;
+    text-align: justify;
+    font-size: 24px;
+  }
+  
+  .builifing_image_div {
+    width: 40%;
+  }
+  
+  .builifing_image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  

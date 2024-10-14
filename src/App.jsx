@@ -67,6 +67,7 @@ import Contect from './Pages/Contect';
 import { AnimatePresence } from 'framer-motion';
 // import Lenis from '@studio-freight/lenis';
 import Lenis from "@studio-freight/lenis/types"
+import About from './Pages/About';
 
 
 function App() {
@@ -99,6 +100,7 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contect />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </AnimatePresence>
       <Footer />

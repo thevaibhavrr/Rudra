@@ -1,0 +1,24 @@
+.detailscards_main_div{
+    width: 100%;
+    padding: 0px 150px;
+}
+.detailscards_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    color: var(--white-color);
+    font-family: var(--Tommay-font-1);
+    text-align: justify;
+    height: 100vh;
+}
+
+.about_details_title{
+    width: 30%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.about_details_paregraph{
+    width: 50%;
+    font-size: 24px;
+}
