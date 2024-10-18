@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  right: 0; 
   font-family: var(--Tommay-font-1);
   color: var(--white-color);
 }
@@ -44,6 +44,8 @@
 .sidebar.closed {
   backdrop-filter: none; 
   border: none;
+  height: 1vh;
+  width: 0%;
 }
 
 .sidebar ul {

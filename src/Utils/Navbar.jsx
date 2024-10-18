@@ -4,12 +4,12 @@ import sideBarIcon from "../assets/navbar/sidebarIcon.png";
 import Logo from "../assets/logo/RUDRA LOGO WHITE.png";
 import "../styles/navbar/navbar.css";
 import { Link, useLocation } from 'react-router-dom';
-
+ 
 function Navbar() {
     const [open, setOpen] = useState(false);
     const [scope, animate] = useAnimate();
-    const items = ["Home", "Contact Us"];
-    const routes = ["/", "/contact"]; 
+    const items = ["Home", "Contact Us", "About"];
+    const routes = ["/", "/contact", "/about"]; 
     const location = useLocation();
 
     // the stagger effect

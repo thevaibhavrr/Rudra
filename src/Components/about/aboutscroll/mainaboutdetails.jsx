@@ -2,6 +2,7 @@ import React from 'react';
 import "../../../styles/about/aboutscroll/mainaboutdetails.css";
 import Builifing from './builifing';
 import Detailscards from './detailscards';
+import Built from '../built';
 
 function Mainaboutdetails() {
     return (
@@ -9,6 +10,7 @@ function Mainaboutdetails() {
             <div className='main_aboutdetails'>
 
                 {/* 1 */}
+            <Built/>
              <Builifing/>
              <Detailscards/>
 

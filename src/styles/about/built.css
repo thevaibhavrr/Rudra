@@ -5,7 +5,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--black-color);
     font-family: var(--Tommay-font-1);
     color: var(--white-color);
     gap: 100px;
@@ -25,7 +24,7 @@
     width: 100%;
 }
 
-.built_div_box_main_div div {
+.built_div_box {
     height: 290px;
     width: 100%;
     padding: 40px;
@@ -37,9 +36,9 @@
     border: 1px solid var(--border-gray-color);
     background: rgba(0, 0, 0, 0.648);
     transition: background-color 0.3s;
-    cursor: pointer; /* Add cursor pointer to indicate interactivity */
+    cursor: pointer;
 }
 
-.built_div_box_main_div div:hover {
-    background: rgba(255, 255, 255, 0.1); /* Change background on hover for visual feedback */
+.built_div_box:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
