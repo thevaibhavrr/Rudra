@@ -6,7 +6,7 @@ function Builifing() {
             <div className='builifing_main_div' >
                 <div className='builifing_text'>BUILDING ON OUR SUCCESS</div>
                 <div className='builifing_bottom_div' >
-                    <div className='builifing_paragraph' >
+                    <div className='builifing_paragraph' > 
                         From a modest shed to a 75,000 sq. ft. state-of-the-art, ISO- certified facility, we've come a long way. Our success is driven by a commitment to continuous improvement and a focus on customer satisfaction. Today, we operate round the clock, serving industries across the globe while remaining rooted in our core values of precision, quality, and innovation.
                     </div>
                     <div className='builifing_image_div' >

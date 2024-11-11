@@ -38,7 +38,7 @@ import { motion } from 'framer-motion';
 
 function Home() {
   return (
-    <div>
+    <div className='main_aboutdetails' >
 
     <motion.div
       // initial={{ opacity: 0, y: 500 }}

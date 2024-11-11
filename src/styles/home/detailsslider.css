@@ -67,10 +67,13 @@
   .detailsslider_bottom_div_heading {
     font-size: 30px;
     font-weight: bolder;
+    color: var(--black-color);
   }
   
   .detailsslider_bottom_div_paregraph {
     font-size: 24px;
     font-weight: 500;
+    color: var(--black-color);
+
   }
   

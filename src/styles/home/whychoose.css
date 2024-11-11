@@ -1,17 +1,17 @@
 .main_div_whychoose {
     height: 100vh ;
-    background: var(--black-color);
+    /* background: var(--black-color); */
 }
 .div_whychoose_for_gif {
     position: relative;
-    background-image: url("../../assets/utils/lava ring.gif");
+    /* background-image: url("../../assets/utils/lava ring.gif"); */
     background-size: 20%;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     z-index: 1;
 }
-.div_whychoose_for_gif::after {
+/* .div_whychoose_for_gif::after {
     content: "";
     position: absolute; 
     top: 0;
@@ -20,7 +20,7 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.8); 
     z-index: 2; 
-}
+} */
 .div_whychoose_for_text {
     color: var(--white-color);
     z-index: 3;

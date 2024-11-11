@@ -7,7 +7,7 @@ import Built from '../built';
 function Mainaboutdetails() {
     return (
         <>
-            <div className='main_aboutdetails'>
+            <div className='main_aboutdetails'> 
 
                 {/* 1 */}
             <Built/>

@@ -35,10 +35,8 @@ function Aboutwelcome() {
           // animate={{ scale: 1 }}
           // transition={{ duration: 0.8 , stiffness: 100  }}
         >
-          <motion.img src={CircelGif} alt="logo"
-            // whileHover={{ scale: 1.2  }}
-            // transition={{ duration: 1 , stiffness: 500  }}
-          />
+          {/* <motion.img src={CircelGif} alt="logo"
+          /> */}
         </motion.div>
         {/* bottom */}
         <div className='welcome_top_divs'>
