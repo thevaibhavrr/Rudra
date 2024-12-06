@@ -1,58 +1,54 @@
 .footer_main_div{
-    background: var(--black-color);
-    font-family: var(--Tommay-font-1);
-    color: var(--white-color);
+    padding: 50px 40px 0px 40px;
 }
-
-.footer_bottom_div{
+.footer-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    gap: 20px;
-    padding: 50px 30px;
-    font-family: var(--Tommay-font-1) ;
-    border-top: 4px solid rgba(255, 255, 255, 0.523);
-}
-.footer_bottom_div_pages{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    font-size: 15px;
-}
-.footer_bottom_div_pages div{
-    cursor: pointer;
-}
-
-@media (max-width: 800px) {
-    .footer_bottom_div{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        gap: 0px;
-        padding: 40px 20px;
-    }
-    .footer_bottom_div_pages{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        font-size: 14px;
-    }
+    background-color: var(--border-gray-color);
+    color: var(--light-gray-color);
+    padding: 50px 70px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+    width: 90%;
+  }
   
-}
+  .footer-left {
+    flex: 1;    
+  }
+  
+  .footer-logo {
+    max-height: 50px;
+  }
+  
+  .footer-center {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: var(--light-gray-color);
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
 
-@media (max-width: 500px) {
-    .footer_bottom_div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 50px;
-        padding: 40px 60px;
-    }
-    .footer_bottom_div_pages{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        font-size: 18px;
-    }
-}
+  
+  .footer-right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .footer-info p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
