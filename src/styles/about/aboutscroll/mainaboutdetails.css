@@ -1,0 +1,29 @@
+.main_aboutdetails {
+    background: var(--black-color);
+    position: relative;
+    width: 100%;
+    background-image: url("../../../assets/utils/lava ring.gif");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.main_aboutdetails::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.main_aboutdetails > * {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 20px;
+}

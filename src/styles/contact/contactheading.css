@@ -1,0 +1,19 @@
+.contact_heading_main_div{
+    width: 100%;
+    height: 50vh;
+    background: var(--black-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_heading{
+    font-family: var(--Tommay-font-1);
+    font-size: 40px;
+    font-weight: 500;
+    
+    color: var(--white-color);
+    text-align: center;
+    word-spacing: 5px ;
+    letter-spacing: 3px;
+    opacity: 0.8;
+}

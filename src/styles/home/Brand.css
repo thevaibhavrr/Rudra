@@ -1,0 +1,46 @@
+.brand_main_div {
+    background: var(--black-color);
+    width: 100%;
+    font-size: 150px;
+    font-weight: bolder;
+    padding: 50px 100px;
+    position: relative;
+    text-align: center;
+}
+
+.hoverable {
+    display: inline-block;
+    transition: color 1s ease;
+    cursor:grab;
+}
+
+.hoverable:nth-child(6) { 
+    margin-right: 20px;
+}
+@media (max-width: 1300px) {
+    .brand_main_div {
+        font-size: 100px;
+        font-weight: bolder;
+        padding: 50px 100px;
+        position: relative;
+    }
+    
+}
+@media (max-width: 1030px) {
+    .brand_main_div {
+        font-size: 80px;
+        padding: 50px 100px;
+    }
+}
+@media (max-width: 850px) {
+    .brand_main_div {
+        font-size: 63px;
+        padding: 50px 100px;
+    }
+}
+@media (max-width: 500px) {
+    .brand_main_div {
+        font-size: 23px;
+        padding: 50px 100px;
+    }
+}
